@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
     surname: "Dambrosio",
   };
   //mock de autentifacao
-  const auth = false;
+  const auth = true;
 
   res.render("home", { user, auth });
 });
