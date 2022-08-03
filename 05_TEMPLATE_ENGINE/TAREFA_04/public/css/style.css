@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-color: rgb(148, 148, 148);
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+}
+
+header,
+footer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  background-color: rgb(63, 21, 163);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

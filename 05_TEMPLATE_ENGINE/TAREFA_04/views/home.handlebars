@@ -1,0 +1,8 @@
+<div class="cards">
+  {{#each products}}
+    <h2>{{this.name}}</h2>
+    <p>{{this.brand}}</p>
+    <p>{{this.price}}</p>
+    <a href="/product/{{this.id}}">Ver mais</a>
+  {{/each}}
+</div>
