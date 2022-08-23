@@ -1,0 +1,10 @@
+<h1>Endereços</h1>
+{{#each address}}
+  <ul>
+    #{{this.id}}
+    -
+    {{this.street}},
+    {{this.number}}
+    ({{this.city}})
+  </ul>
+{{/each}}
